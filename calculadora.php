@@ -1,7 +1,7 @@
 <?php
 
-$Valor=$_POST["Valor"];
-$Valor2=$_POST["Valor2"];
+$Valor=$_POST["firt_number"];
+$Valor2=$_POST["secund_number"];
 $operacao=$_POST["operacao"];
 
 
