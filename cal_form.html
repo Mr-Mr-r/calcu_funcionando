@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,12 +10,18 @@
     <form>
         <form action="calculadora.php" method="post"> 
         <label>Primeiro Numero</label>
-        <input type="number" id="firt_number" name="firt_number">
+        <input type="number"  name="first_number"><br>
         <label>Segundo Numero</label>
-        <input type="number"id="secund_number" name="secund_number" >
+        <input type="number" name="secund_number" ><br>
         <label>qual operação deseja fazer</label>
-        <input type="text"id="secund_number" name="secund_number" >
+        <select name="operacao" id="operacao">
+        <option value="soma">soma</option>
+        <option value="sub">subtração</option>
+        <option value="divisao">divisão</option>
+        <option value="mult">multiplicação</option>
+        </select>
         <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
     </form>
 </body>
 </html>
